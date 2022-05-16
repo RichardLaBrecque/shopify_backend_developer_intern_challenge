@@ -1,0 +1,21 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1652734703
+  }
+}

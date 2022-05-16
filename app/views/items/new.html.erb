@@ -1,0 +1,9 @@
+<%= form_with model: @item, local: true do |form| %>
+<p><%= form.label :name %></p>
+<p><%= form.text_field :name %></p>
+<p><%= form.label :count %></p>
+<p><%= form.number_field :count %></p>
+<p><%= form.label :description %></p>
+<p><%= form.text_field :description %></p>
+<p><%= form.submit 'Save' %></p>
+<% end %>
