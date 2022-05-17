@@ -6,21 +6,13 @@
           1,
           1,
           1,
-          null
-        ]
-      },
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/item.rb": {
-        "lines": [
           1,
           1,
           1,
-          null
-        ]
-      },
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/application_record.rb": {
-        "lines": [
           1,
           1,
+          0,
+          null,
           null
         ]
       },
@@ -45,6 +37,21 @@
           2,
           2,
           null,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
           null
         ]
       },
@@ -86,10 +93,19 @@
           1,
           null,
           1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
           1,
           1,
           null,
-          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -103,6 +119,6 @@
         ]
       }
     },
-    "timestamp": 1652749322
+    "timestamp": 1652751025
   }
 }
