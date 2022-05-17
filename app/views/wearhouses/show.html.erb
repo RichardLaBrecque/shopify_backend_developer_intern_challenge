@@ -1,0 +1,19 @@
+<h1><%= @wearhouse.name %></h1>
+
+<%= form_with model: @wearhouse_item, local: true do |form| %>
+<%= form.label :item_name %>
+<%= form.text_field :item_name %>
+<%= form.label :count %>
+<%= form.number_field :count %>
+<%= form.submit 'Add Item to wearhouse' %>
+<% end %>
+
+<div class="inventory">
+  <% @wearhouse.wearhouse_items.each do |wearhouse_item| %>
+  <hr>
+  <p>item name:<%= wearhouse_item.item.name %></p>
+  <p>item description:<%= wearhouse_item.item.description %></p>
+  <p>item count:<%= wearhouse_item.count %></p>
+  <% end %>
+
+</div>

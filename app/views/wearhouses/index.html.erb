@@ -1,4 +1,8 @@
 <% @wearhouses.each do |wh| %>
+<hr>
 <%= wh.name %>
 <%= wh.location %>
+<% if wh.name != nil %>
+  <%= link_to 'view wearhouse', "/wearhouses/#{wh.id}" %>
+<% end %>
 <% end %>

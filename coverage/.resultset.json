@@ -1,31 +1,10 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/wearhouses_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/wearhouse.rb": {
         "lines": [
+          1,
+          1,
           1,
           null
         ]
@@ -36,8 +15,65 @@
           1,
           null
         ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/wearhouses_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/wearhouse_item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/controllers/wearhouse_items_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1652806817
+    "timestamp": 1652809081
   }
 }

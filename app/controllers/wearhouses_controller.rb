@@ -10,4 +10,8 @@ class WearhousesController < ApplicationController
   def index
     @wearhouses = Wearhouse.all
   end
+
+  def show
+    @wearhouse = Wearhouse.find(params[:id])
+  end
 end
