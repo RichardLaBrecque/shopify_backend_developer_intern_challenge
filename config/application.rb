@@ -29,5 +29,10 @@ module ShopifyBackendDeveloperInternChallenge
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    # Allow framing to see output in Repl.it
+    config.action_dispatch.default_headers = {
+      'X-Frame-Options' => ''
+    }
   end
 end
