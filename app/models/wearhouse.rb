@@ -1,0 +1,2 @@
+class Wearhouse < ApplicationRecord
+end

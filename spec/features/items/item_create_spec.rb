@@ -8,5 +8,8 @@ RSpec.describe "creating an item" do
     fill_in "Description", with: "description test"
     click_on "Save"
     item = Item.last
+    expect(page).to have_content("item name:Item test")
+    expect(page).to have_content("item count:4")
+    expect(page).to have_content("description:description test")
   end
 end

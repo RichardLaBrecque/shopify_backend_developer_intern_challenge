@@ -10,17 +10,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_05_16_204026) do
+ActiveRecord::Schema.define(version: 2022_05_17_005251) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "items", force: :cascade do |t|
     t.string "name"
-    t.integer "count"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  create_table "wearhouse_items", force: :cascade do |t|
+    t.bigint "item_id"
+    t.bigint "wearhouse_id"
+    t.integer "count"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["item_id"], name: "index_wearhouse_items_on_item_id"
+    t.index ["wearhouse_id"], name: "index_wearhouse_items_on_wearhouse_id"
+  end
+
+  create_table "wearhouses", force: :cascade do |t|
+    t.string "name"
+    t.string "location"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "wearhouse_items", "items"
+  add_foreign_key "wearhouse_items", "wearhouses"
 end
