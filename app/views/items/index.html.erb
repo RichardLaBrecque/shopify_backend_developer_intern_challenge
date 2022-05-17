@@ -3,4 +3,5 @@
 <hr>
 <p>item name:<%= item.name %></p>
 <p>description:<%= item.description %></p>
+<%= button_to "Delete #{item.name}", "/items/#{item.id}", method: :delete%>
 <% end %>
