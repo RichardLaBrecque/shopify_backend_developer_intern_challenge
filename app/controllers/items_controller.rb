@@ -2,7 +2,7 @@ class ItemsController < ApplicationController
   def new
   end
   def create
-    Item.create(name: params[:name], count: params[:count], description: params[:description])
+    Item.create(name: params[:name], description: params[:description])
     redirect_to '/items'
   end
 

@@ -1,6 +1,29 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/spec/features/items/item_update_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/item.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/spec/models/item_spec.rb": {
         "lines": [
           1,
@@ -12,7 +35,6 @@
           1,
           1,
           1,
-          1,
           null,
           null,
           null,
@@ -20,22 +42,40 @@
           null,
           null,
           1,
-          2,
           2,
           2,
           null,
           null
         ]
       },
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/item.rb": {
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/spec/models/wearhouse_item_spec.rb": {
         "lines": [
+          1,
+          null,
+          1,
           1,
           null
         ]
       },
-      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/application_record.rb": {
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/wearhouse_item.rb": {
         "lines": [
           1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/spec/models/wearhouse_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/rcl/job_hunt/shopify/shopify_backend_developer_intern_challenge/app/models/wearhouse.rb": {
+        "lines": [
           1,
           null
         ]
@@ -63,6 +103,6 @@
         ]
       }
     },
-    "timestamp": 1652748545
+    "timestamp": 1652749322
   }
 }
